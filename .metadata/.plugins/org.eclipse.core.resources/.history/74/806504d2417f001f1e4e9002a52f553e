@@ -60,7 +60,7 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int hour = 15, minute = 9, second = 55;
+int hour = 15, minute = 8, second = 55;
 void updateClockBuffer(){
 	display7SEG_m_1(second % 10);
 	display7SEG_m_2(second / 10);
