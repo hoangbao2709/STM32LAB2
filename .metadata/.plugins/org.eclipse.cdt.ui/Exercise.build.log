@@ -1,0 +1,10 @@
+21:32:13 **** Incremental Build of configuration Debug for project Exercise ****
+make -j20 all 
+arm-none-eabi-size   Exercise.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8024	     20	   1652	   9696	   25e0	Exercise.elf
+Finished building: default.size.stdout
+ 
+
+21:32:13 Build Finished. 0 errors, 0 warnings. (took 130ms)
+
