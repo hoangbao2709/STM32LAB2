@@ -16,3 +16,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-30 20:58:48.552
 !MESSAGE Indexed 'Exercise' (19 sources, 78 headers) in 1.35 sec: 3,647 declarations; 13,136 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-30 21:26:19.457
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-30 21:26:19.457
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-30 21:26:19.457
+!MESSAGE D:\VXL_2\Exercise overlaps the location of another project: 'Exercise'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-30 21:26:19.457
+!MESSAGE Project is null
