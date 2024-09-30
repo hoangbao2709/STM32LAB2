@@ -161,7 +161,7 @@ uint8_t Chu[26][8] = {
 
 
 void updateLEDMatrix (int index ){
-	uint8_t *binary_array_1 = convert_to_binary_array(ChuA[index]);
+	uint8_t *binary_array_1 = convert_to_binary_array(ChuZ[index]);
 	GetCOL(binary_array_1);
 	free(binary_array_1);
 }

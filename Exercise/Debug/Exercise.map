@@ -110,7 +110,6 @@ Discarded input sections
                 0x0000000000000000        0x4 ./Core/Src/main.o
  .bss.index_led_matrix
                 0x0000000000000000        0x4 ./Core/Src/main.o
- .data.ChuA     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.ChuB     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.ChuC     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.ChuD     0x0000000000000000        0x8 ./Core/Src/main.o
@@ -135,6 +134,7 @@ Discarded input sections
  .data.ChuW     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.ChuX     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.ChuY     0x0000000000000000        0x8 ./Core/Src/main.o
+ .data.ChuZ     0x0000000000000000        0x8 ./Core/Src/main.o
  .data.Chu      0x0000000000000000       0xd0 ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f1xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f1xx_hal_msp.o
@@ -2612,8 +2612,8 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
- .data.ChuZ     0x0000000020000000        0x8 ./Core/Src/main.o
-                0x0000000020000000                ChuZ
+ .data.ChuA     0x0000000020000000        0x8 ./Core/Src/main.o
+                0x0000000020000000                ChuA
  .data.SystemCoreClock
                 0x0000000020000008        0x4 ./Core/Src/system_stm32f1xx.o
                 0x0000000020000008                SystemCoreClock

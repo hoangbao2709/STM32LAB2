@@ -212,7 +212,7 @@ int main(void)
 				  GetROW(binary_array);
 				  updateLEDMatrix(j);
 				  number = (number << 1) | 0x01;
-				  HAL_Delay(1);
+				  HAL_Delay(100);
 			  }
 		  }
 	  }
